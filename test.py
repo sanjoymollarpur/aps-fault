@@ -1,19 +1,13 @@
-from sensor.logger import logging
-from sensor.exception import SensorException
-import sys, os 
+import os
+from dotenv import load_dotenv
 
-def test_logger_and_exception():
-    try:
-        logging.info("Starting test logger")
-        r=3
-        print(r)
-        logging.info("Stop test logger")
-    except Exception as e:
-        raise SensorException(e, sys)
+# Load environment variables from .env file
+load_dotenv()
 
+# Access environment variables
+database_url = os.getenv("MONGO_db_url")
 
-if __name__=="__main__":
-    try:
-        test_logger_and_exception()
-    except Exception as e:
-        print(e)
+# Use the variables in your code
+print(f"Database URL: {database_url}")
+# print(f"API Key: {api_key}")
+# print(f"Debug Mode: {debug_mode}")

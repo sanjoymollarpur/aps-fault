@@ -30,6 +30,7 @@ def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataF
         raise SensorException(e, sys)
     
 
+
 def write_yaml_file(file_path,data:dict):
     try:
         file_dir = os.path.dirname(file_path)
@@ -94,3 +95,8 @@ def load_numpy_array_data(file_path: str) -> np.array:
             return np.load(file_obj)
     except Exception as e:
         raise SensorException(e, sys) from e
+
+
+df=get_collection_as_dataframe("aps","sensor")
+
+print(df)

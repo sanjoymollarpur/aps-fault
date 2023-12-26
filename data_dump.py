@@ -2,11 +2,11 @@ import pymongo
 import pandas as pd
 import json
 
-client = pymongo.MongoClient("mongodb://localhost:27017/neurolabDB")
+client = pymongo.MongoClient("mongodb+srv://sanjoy:sanjoyy@cluster0.kftnejs.mongodb.net/?retryWrites=true&w=majority")
 
 # from sensor.config import mongo_client
 
-DATA_FILE_PATH="/config/workspace/aps_failure_training_set1.csv"
+DATA_FILE_PATH="aps_failure_training_set1.csv"
 DATABASE_NAME="aps"
 COLLECTION_NAME="sensor"
 
