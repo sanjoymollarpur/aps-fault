@@ -1,0 +1,53 @@
+[33mcommit 49f9ae8192b24fec1a0ed7ccc6cb389d6c283f30[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: sanjoy <sanjoymlp2014@gmail.com>
+Date:   Tue Dec 26 16:26:20 2023 +0530
+
+    After setup local machine
+
+[33mcommit dec16e57c88ea69798b80a1fabf2c575961f071a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Sun Dec 24 11:28:50 2023 +0530
+
+    project completed, first need run train.py then run main.py
+
+[33mcommit 9b8a6229d37bcb2d287271a9cff13e81bcd92a68[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Sat Dec 23 14:02:09 2023 +0530
+
+    Training completed
+
+[33mcommit 92489acb2021b9d20c1526a17158c52d093a1f72[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Sat Dec 23 09:46:18 2023 +0530
+
+    Data validation completed
+
+[33mcommit e5482fab1d7cd6ad27ac2e41fbaf9179776d0b5c[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Fri Dec 22 15:55:54 2023 +0530
+
+    data ingestion completed
+
+[33mcommit 60b23ba973b29338bac88d6682e332869a00e992[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Fri Dec 22 10:55:15 2023 +0530
+
+    push notebook
+
+[33mcommit 0a815d6ec4ba5c54602283f5ea3d75f9715e360a[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Fri Dec 22 10:37:38 2023 +0530
+
+    added a new file git ignore
+
+[33mcommit 1f9dace2e3dc52d3e6c2fb467453e4b687b90023[m
+Author: Sanjoy <sanjoymlp2014@gmail.com>
+Date:   Fri Dec 22 10:13:44 2023 +0530
+
+    This is first commit
+
+[33mcommit 6afd27592df27173e22acdb031203b1ce67f6a05[m
+Author: Vishweswar53 <vishweswar53@gmail.com>
+Date:   Sat Oct 29 21:52:14 2022 +0530
+
+    Initial commit
