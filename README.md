@@ -1,6 +1,15 @@
 ### Problem statement:
 The system in focus is the Air Pressure system (APS) which generates pressurized air that are utilized in various functions in a truck, such as braking and gear changes. The datasets positive class corresponds to component failures for a specific component of the APS system. The negative class corresponds to trucks with failures for components not related to the APS system.
 
+The problem is solved using modular coding which means the whole lifecycle of a production-level Machine Learning system used in  that project. The steps are given below...
+
+1. Data is collected from MongoDB 
+2. Data is divided into training, testing, and validation, handling imbalanced data, filled null values
+3. Comapared between new dataset and old dataset
+4. If the dataset belongs to a different distribution, then the train pipeline will be called
+5. If the new model performs better than the old one then the new model will be pushed for production
+
+
 ### Step 1 - Install the requirements
 
 ```bash
